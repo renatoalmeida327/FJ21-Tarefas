@@ -3,6 +3,7 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<link type="text/css" href="resources/css/tarefas.css" rel="stylesheet">
 		<title>Adicionada</title>
 	</head>
 	<body>

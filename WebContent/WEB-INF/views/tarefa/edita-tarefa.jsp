@@ -1,8 +1,11 @@
 <%@ page contentType="text/html; charset=ISO-8859-1" language="java" pageEncoding="UTF-8" import="java.sql.*" errorPage="" %>
 <%@ taglib prefix="fmt" uri="http://java.sun.com/jsp/jstl/fmt" %>
 
-  <html>
-  <body>
+<html>
+	<head>
+		<link type="text/css" href="resources/css/tarefas.css" rel="stylesheet">
+	</head>
+	<body>
       <h3>Alterar tarefa - ${tarefas.id}</h3>
       <form action="alteraTarefa" method="post">
 
@@ -26,5 +29,5 @@
 
           <input type="submit" value="Alterar"/>
       </form>
-  </body>
-  </html>
+	</body>
+</html>

@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	
+		<link type="text/css" href="resources/css/tarefas.css" rel="stylesheet">
 	</head>
 	<body>
 		<h2>Página Inicial da Lista de Tarefas</h2>

@@ -8,10 +8,11 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
+import javax.sql.DataSource;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
-import br.com.tarefas.ConnectionFactory;
 import br.com.tarefas.modelo.Tarefa;
 
 
@@ -20,10 +21,10 @@ public class JdbcTarefaDao implements TarefaDao {
 
 	private Connection connection;
 	
-
-	public JdbcTarefaDao(){
+	@Autowired
+	public JdbcTarefaDao(DataSource dataSource){
 		try {
-			this.connection = new ConnectionFactory().getConnection();
+			this.connection = dataSource.getConnection();
 		} catch (SQLException e) {
 			throw new RuntimeException(e);
 		}
