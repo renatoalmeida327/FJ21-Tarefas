@@ -8,6 +8,7 @@
 		<link rel="stylesheet" href="resources/css/jquery-ui.css" />
 		<link rel="stylesheet" href="resources/css/jquery-ui.structure.min.css" />
 		<link rel="stylesheet" href="resources/css/jquery-ui.theme.min.css" />
+		<link type="text/css" href="resources/css/tarefas.css" rel="stylesheet">
 		<script type="text/javascript" src="resources/js/jquery.js"></script>
 		<script type="text/javascript" src="resources/js/jquery-ui.js"></script>
 

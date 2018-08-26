@@ -8,6 +8,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Lista Tarefas</title>
+		<link type="text/css" href="resources/css/tarefas.css" rel="stylesheet">
 		<script type="text/javascript" src="resources/js/jquery.js"></script>
 	</head>
 	<body>
